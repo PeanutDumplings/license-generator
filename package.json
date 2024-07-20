@@ -10,7 +10,10 @@
   "scripts": {
     "dev": "bun --hot src/index.ts",
     "build": "bun build.ts",
-    "prod": "bun dist/index.js"
+    "prod": "bun lib/index.js"
+  },
+  "bin": {
+    "gen-license": "lib/index.js"
   },
   "type": "module",
   "dependencies": {
