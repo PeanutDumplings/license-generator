@@ -9,10 +9,12 @@
   },
   "scripts": {
     "dev": "bun --hot src/index.ts",
-    "build": "bun build src/index.ts"
+    "build": "bun build.ts",
+    "prod": "bun dist/index.js"
   },
   "type": "module",
   "dependencies": {
-    "@inquirer/prompts": "^5.2.1"
+    "@inquirer/prompts": "^5.2.1",
+    "chalk": "^5.3.0"
   }
 }

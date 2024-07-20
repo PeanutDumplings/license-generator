@@ -22,8 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`;
 
   public readonly variables = [
-    { name: "your name", value: "{name}", type: "string" },
-    { name: "the year", value: "{year}", type: "string" },
+    { name: "your name", value: "{name}" },
+    { name: "the year", value: "{year}" },
   ];
 }
 
